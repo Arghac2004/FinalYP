@@ -1,0 +1,9 @@
+{
+  "name": "f1-prj",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix welth-dashboard run dev",
+    "build": "npm --prefix welth-dashboard run build",
+    "preview": "npm --prefix welth-dashboard run preview"
+  }
+}
