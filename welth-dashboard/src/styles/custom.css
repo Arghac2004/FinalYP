@@ -19,6 +19,7 @@ body {
   background: radial-gradient(circle at 10% 20%, rgba(37, 99, 235, 0.04) 0%, transparent 40%),
               radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.04) 0%, transparent 40%),
               #F8FAFC;
+  min-height: 100vh;
 }
 
 #bg-3d-canvas {
@@ -396,4 +397,3 @@ html.dark .mobile-bottom-dock {
     font-size: 16px !important;
   }
 }
-

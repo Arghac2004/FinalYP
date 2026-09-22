@@ -1,13 +1,22 @@
 {
   "name": "welth-dashboard",
+  "private": true,
   "version": "1.0.0",
-  "description": "Welth - Modern Financial Dashboard",
+  "type": "module",
+  "description": "FinTrack - Modern 3D Financial React Dashboard",
   "scripts": {
-    "dev": "vite --open",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "chart.js": "^4.4.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.174.0"
+  },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
     "vite": "^5.4.14"
   }
 }
